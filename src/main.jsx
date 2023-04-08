@@ -13,6 +13,8 @@ import Test from './components/Test/test';
 import Contact from './components/Contact/Contact';
 import Login from './components/Login/Login';
 import Header from './components/Header/Header';
+import Error from './components/Error/Error';
+import CourseDetails from './components/CourseDetails/CourseDetails';
 // ====================================================================== //
 
 const router = createBrowserRouter([
@@ -22,7 +24,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: () => fetch('courses.json')
       },
       {
         path: 'header',
@@ -39,6 +42,15 @@ const router = createBrowserRouter([
       {
         path: 'login',
         element: <Login></Login>
+      },
+      {
+        path: 'home/:courseId',
+        element: <CourseDetails></CourseDetails>,
+        loader: ({params}) => fetch(`courses.json/${params.courseId}`)
+      },
+      {
+        path: '*',
+        element: <Error></Error>
       }
     ]
   }

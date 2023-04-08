@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Introduction to Computer Science",
+        "price": 149.99,
+        "instructor": "Dr. John Smith",
+        "instructor_phone": "+1 (555) 123-4567",
+        "routine": {
+            "day": "Monday",
+            "time": "9:00 AM - 11:00 AM"
+        },
+        "details": "This course provides an introduction to computer science and programming, covering topics such as data types, control structures, functions, and arrays. Students will learn how to write simple programs in a high-level programming language and develop problem-solving skills.",
+        "prerequisites": "None",
+        "banner": "https://img.freepik.com/free-photo/3d-render-clock-with-books-minimal-style-illustration_460848-13098.jpg?w=996&t=st=1680965152~exp=1680965752~hmac=749d166a63e819b717a40fea7429ec3f3dd1fa3273524c92b45ad2ee7e513cdd"
+    },
+    {
+        "id": 2,
+        "name": "Data Structures and Algorithms",
+        "price": 199.99,
+        "instructor": "Dr. Jane Doe",
+        "instructor_phone": "+1 (555) 234-5678",
+        "routine": {
+            "day": "Tuesday",
+            "time": "1:00 PM - 3:00 PM"
+        },
+        "details": "This course covers fundamental data structures and algorithms used in computer science, including linked lists, stacks, queues, trees, graphs, and sorting and searching algorithms. Students will learn how to analyze the time and space complexity of algorithms and implement them in a programming language.",
+        "prerequisites": "Introduction to Computer Science or equivalent experience",
+        "banner": "https://img.freepik.com/free-photo/open-book-icon-symbol-yellow-background-education-bookstore-concept-3d-rendering_56104-1334.jpg?w=1060&t=st=1680965151~exp=1680965751~hmac=50d8bbbd3d0f671040c366d9459f9761bd7355e2aff9e8cd4836d4d4060c7626"
+    },
+    {
+        "id": 3,
+        "name": "Database Systems",
+        "price": 249.99,
+        "instructor": "Mr. David Lee",
+        "instructor_phone": "+1 (555) 345-6789",
+        "routine": {
+            "day": "Thursday",
+            "time": "3:00 PM - 5:00 PM"
+        },
+        "details": "This course covers database design and implementation, including relational database models, SQL queries, normalization, indexing, and transactions. Students will learn how to create and manage databases using popular database management systems such as MySQL and PostgreSQL.",
+        "prerequisites": "Introduction to Computer Science or equivalent experience",
+        "banner": "https://img.freepik.com/free-photo/high-angle-floating-books-connected-by-ladders-education-day_23-2149241038.jpg?w=1060&t=st=1680965233~exp=1680965833~hmac=19783f6f5fb9169bcbf530207dd9b7f0f940fc94188823a15b4e8caee15dbc64"
+    },
+    {
+        "id": 4,
+        "name": "Object-Oriented Programming with Java",
+        "price": 299.99,
+        "instructor": "Ms. Emily Chen",
+        "instructor_phone": "+1 (555) 456-7890",
+        "routine": {
+            "day": "Monday",
+            "time": "1:00 PM - 3:00 PM"
+        },
+        "details": "This course introduces object-oriented programming using the Java programming language, covering topics such as classes, objects, inheritance, polymorphism, and interfaces. Students will learn how to write complex programs using object-oriented design principles.",
+        "prerequisites": "Introduction to Computer Science or equivalent experience",
+        "banner": "https://img.freepik.com/free-photo/open-book-blue-background-isolated-closeup_169016-25939.jpg?w=1060&t=st=1680965270~exp=1680965870~hmac=f8c2f230b78b8c2fef843fe8338564165b88667baca09c9c7474e2a39a3f2554"
+    },
+    {
+        "id": 5,
+        "name": "Software Engineering Principles",
+        "price": 199.99,
+        "instructor": "Dr. Mark Johnson",
+        "instructor_phone": "+1 (555) 567-8901",
+        "routine": {
+            "day": "Wednesday",
+            "time": "1:00 PM - 3:00 PM"
+        },
+        "details": "This course introduces object-oriented programming using the Java programming language, covering topics such as classes, objects, inheritance, polymorphism, and interfaces. Students will learn how to write complex programs using object-oriented design principles.",
+        "prerequisites": "Introduction to Computer Science or equivalent experience",
+        "banner": "https://img.freepik.com/free-vector/reading-glasses-concept-illustration_114360-8514.jpg?w=1060&t=st=1680965297~exp=1680965897~hmac=ace8ebafc8e1522ac07e2cbeb35eca2c564adecce1370ea52ccb63a32264460c"
+    },
+    {
+        "id": 6,
+        "name": "Data Mining & Engineering",
+        "price": 500.99,
+        "instructor": "Dr. David",
+        "instructor_phone": "+1 (555) 985-4569",
+        "routine": {
+            "day": "Monday",
+            "time": "1:00 PM - 3:00 PM"
+        },
+        "details": "Data mining is the process of extracting and discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems",
+        "prerequisites": "Introduction to Computer Science or equivalent experience",
+        "banner": "https://img.freepik.com/free-photo/front-view-open-book-wooden-table_23-2148255829.jpg?w=1060&t=st=1680969410~exp=1680970010~hmac=f1de4f391188e09506175035cb84b6eb7d84907757ca0982713825d598bf643f"
+    }
+]
