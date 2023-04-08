@@ -12,6 +12,7 @@ import Home from './components/Home/Home';
 import Test from './components/Test/test';
 import Contact from './components/Contact/Contact';
 import Login from './components/Login/Login';
+import Header from './components/Header/Header';
 // ====================================================================== //
 
 const router = createBrowserRouter([
@@ -20,8 +21,12 @@ const router = createBrowserRouter([
     element: <Main></Main>,
     children: [
       {
-        path: 'home',
+        path: '/',
         element: <Home></Home>
+      },
+      {
+        path: 'header',
+        element: <Header></Header>
       },
       {
         path: 'test',
